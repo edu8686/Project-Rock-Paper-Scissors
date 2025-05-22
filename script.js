@@ -1,3 +1,6 @@
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice () {
     let randomNum = 4
     while (randomNum > 2) {
