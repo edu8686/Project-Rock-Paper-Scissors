@@ -13,3 +13,11 @@ function getComputerChoice () {
         return "Scissors"
     }
 }
+
+function getHumanChoice () {
+    let eleccion = prompt("Ingresar su elección: Piedra, papel o tijera").toLowerCase();
+    return eleccion;
+}
+
+let x = getHumanChoice()
+console.log(x)
