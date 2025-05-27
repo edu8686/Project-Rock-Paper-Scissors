@@ -5,8 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rocka Paper Scissors</title>
 </head>
+<style>
+  .hidden {
+    display: none;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 1.5rem;
+    margin: 0 10px
+  }
+
+</style>
 <body>
-    
+    <h1>Rock, Paper, Scissors game</h1>
+    <h3>Select one option to play the game. The first one to win five rounds wins the match.</h3>
+    <div>
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div id="round-result">
+    </div>
+    <div id="score"></div>
+    <div id="match-result"></div>
+    <div class="button">
+        <button id="reset" class="hidden">Reset</button>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
